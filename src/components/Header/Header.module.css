@@ -1,0 +1,93 @@
+.container {
+	width: 100vw;
+	height: 30vh;
+	background-color: var(--background-blue);
+	padding: 1rem 3rem;
+	display: flex;
+	align-items: center;
+	gap: 2rem;
+}
+
+.logo {
+	height: 100%;
+	object-fit: contain;
+}
+
+.welcomeContainer {
+	width: 50vw;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcomeText {
+	font-size: 3rem;
+	color: var(--text-blue);
+	font-family: 'Anton', sans-serif;
+	text-transform: uppercase;
+	font-weight: 400;
+	text-align: center;
+}
+
+.welcomeSubtext {
+	font-size: 1.4rem;
+	color: var(--text-blue);
+	font-family: 'Dosis', serif;
+	text-align: center;
+	width: 40vw;
+}
+
+.wannaPlayBtn {
+	background-color: var(--text-blue);
+	color: var(--background-blue);
+	font-size: 2rem;
+	padding: 0.5rem 1rem;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+/* iPads, Tablets */
+@media screen and (min-width: 481px) and (max-width: 880px) {
+	.container {
+		height: 100vh;
+		flex-direction: column;
+		padding: 2rem;
+		justify-content: space-around;
+	}
+
+	.logo {
+		height: 35vh;
+		align-self: center;
+	}
+
+	.welcomeSubtext {
+		width: 60vw;
+	}
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+	.container {
+		height: 100vh;
+		flex-direction: column;
+		padding: 1rem;
+		justify-content: space-around;
+	}
+
+	.logo {
+		height: 40vh;
+	}
+
+	.welcomeText {
+		font-size: 2.5rem;
+		line-height: 1.2;
+	}
+
+	.welcomeSubtext {
+		font-size: 1.2rem;
+		width: 80vw;
+	}
+}
