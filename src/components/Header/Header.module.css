@@ -5,7 +5,8 @@
 	padding: 1rem 3rem;
 	display: flex;
 	align-items: center;
-	gap: 2rem;
+	/* gap: 2rem; */
+	justify-content: space-between;
 }
 
 .logo {
@@ -31,11 +32,11 @@
 }
 
 .welcomeSubtext {
-	font-size: 1.4rem;
-	color: var(--text-blue);
+	font-size: 1.8rem;
+	color: var(--text-black);
 	font-family: 'Dosis', serif;
 	text-align: center;
-	width: 40vw;
+	width: 45vw;
 }
 
 .wannaPlayBtn {
@@ -64,6 +65,7 @@
 	}
 
 	.welcomeSubtext {
+		font-size: 1.7rem;
 		width: 60vw;
 	}
 }
@@ -84,7 +86,7 @@
 	}
 
 	.welcomeSubtext {
-		font-size: 1.2rem;
+		font-size: 1.5rem;
 		width: 80vw;
 	}
 }

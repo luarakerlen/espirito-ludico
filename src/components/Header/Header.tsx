@@ -13,10 +13,9 @@ export const Header = () => {
 				alt='Meeple rosa com a escrita Espírito Lúdico e o slogan Joga e conecta'
 			/>
 			<div className={styles.welcomeContainer}>
-				<h2 className={styles.welcomeText}>Boas vindas!</h2>
 				<p className={styles.welcomeSubtext}>
-					Joga como se a diversão dependesse de você, conecta como se a magia do
-					momento dependesse de todos.
+					"Joga como se a diversão dependesse de você, conecta como se a magia do
+					momento dependesse de todos."
 				</p>
 			</div>
 			{windowWidth <= 880 && (
