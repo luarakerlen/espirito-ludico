@@ -2,7 +2,6 @@
 import { useEffect, useState } from 'react';
 import { Header, Think, WelcomeScreen } from '../../components';
 import styles from './LandingPage.module.css';
-import { useWindowDimensions } from '../../hooks';
 
 export const LandingPage = () => {
 	const [isShowWelcomeScreen, setIsShowWelcomeScreen] = useState(true);
