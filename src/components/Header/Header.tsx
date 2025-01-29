@@ -14,8 +14,8 @@ export const Header = () => {
 			/>
 			<div className={styles.welcomeContainer}>
 				<p className={styles.welcomeSubtext}>
-					"Joga como se a diversão dependesse de você, conecta como se a magia do
-					momento dependesse de todos."
+					&quot;Joga como se a diversão dependesse de você, conecta como se a
+					magia do momento dependesse de todos.&quot;
 				</p>
 			</div>
 			{windowWidth <= 880 && (
