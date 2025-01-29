@@ -3,7 +3,7 @@ import { useEffect, useState } from 'react';
 import { Header, Think, WelcomeScreen } from '../../components';
 import styles from './LandingPage.module.css';
 
-export const LandingPage = () => {
+export default function LandingPage() {
 	const [isShowWelcomeScreen, setIsShowWelcomeScreen] = useState(true);
 
 	useEffect(() => {
@@ -21,4 +21,4 @@ export const LandingPage = () => {
 			</div>
 		</div>
 	);
-};
+}
