@@ -1,0 +1,26 @@
+.container {
+	background-color: var(--background-blue);
+	color: var(--text-white);
+	font-size: 2rem;
+	font-weight: 600;
+	padding: 0.5rem 1.5rem;
+	border: none;
+	border-radius: 32px;
+	cursor: pointer;
+	transition: all 0.3s;
+}
+
+.container:hover {
+	background-color: var(--hover-blue);
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 880px) {
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+	.container {
+		font-size: 1.5rem;
+	}
+}
