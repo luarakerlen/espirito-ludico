@@ -1,8 +1,28 @@
 :root {
 	--pink: #f09cbf;
 	--blue: #38b6ff;
-	--background-pink: #ffcbe1;
-	--background-blue: #d2e7fd;
+
+  /* Atual */
+  /* --background-pink: #ffcbe1;
+	--background-blue: #d2e7fd; */
+
+  /* Ousado e vibrante (Energia e diversão) */
+  /* --background-pink: #FF3B8A;
+	--background-blue: #0077FF; */
+
+  /* Moderno e sofisticado (Conexão e profissionalismo) */
+  --background-pink: #E6397D;
+	--background-blue: #005F99;
+  --hover-blue: #0088CC;
+
+  /* Alegre e acessível (Amigável e convidativo) */
+  /* --background-pink: #FF6699;
+	--background-blue: #0099CC; */
+
+  /* Suave e acolhedor (Bem-estar e conforto) */
+	/* --background-pink: #F4A7C1;
+	--background-blue: #7EC8E3; */
+
 	--text-white: #ffffff;
 	--text-black: #000000;
 	--text-blue: #38b6ff;
@@ -23,9 +43,9 @@
 
 html,
 body {
-  max-width: 100vw;
-  overflow-x: hidden;
-} 
+	max-width: 100vw;
+	overflow-x: hidden;
+}
 
 /* body {
   color: var(--foreground);
