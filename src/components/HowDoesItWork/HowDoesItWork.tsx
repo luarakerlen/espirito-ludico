@@ -49,19 +49,19 @@ export const HowDoesItWork = () => {
 						title='1. Escolha'
 						description='Escolha seus jogos a partir da lista disponível, faça seu cadastro e o pedido.'
 						Image={ChooseSvg}
-						backgroundColor='var(--background-blue)'
+						color='var(--background-blue)'
 					/>
 					<Card
 						title='2. Retire/Receba'
 						description='Combine por WhatsApp o método de entrega: retirar na loja ou receber em casa.'
 						Image={PickUpSvg}
-						backgroundColor={'var(--background-pink)'}
+						color={'var(--background-pink)'}
 					/>
 					<Card
 						title='3. Divirta-se'
 						description='Aproveite cada jogo o quanto quiser.'
 						Image={HaveFunSvg}
-						backgroundColor={
+						color={
 							windowWidth < 480 || windowWidth > 880
 								? 'var(--background-blue)'
 								: 'var(--background-pink)'
@@ -71,7 +71,7 @@ export const HowDoesItWork = () => {
 						title='4. Devolva'
 						description='No dia marcado devolva o jogo.'
 						Image={ReturnSvg}
-						backgroundColor={
+						color={
 							windowWidth < 480 || windowWidth > 880
 								? 'var(--background-pink)'
 								: 'var(--background-blue)'
