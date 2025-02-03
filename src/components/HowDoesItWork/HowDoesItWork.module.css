@@ -1,0 +1,97 @@
+.container {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+}
+
+.bold {
+	font-weight: bold;
+}
+
+.italic {
+	font-style: italic;
+}
+
+.textAndButtonContainer {
+	height: 45%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 1rem 2rem;
+}
+
+.textContainer {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 1rem;
+}
+
+.text {
+	text-align: center;
+	font-size: 1.5rem;
+	width: 80%;
+}
+
+.buttonContainer {
+	flex: 1;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.explanation {
+	height: 55%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.cardsContainer {
+	display: flex;
+	width: 100%;
+	height: 40vh;
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 880px) {
+	.container {
+		height: auto;
+		gap: 1rem;
+	}
+
+	.textAndButtonContainer {
+		height: auto;
+	}
+
+	.buttonContainer {
+		margin-top: 1rem;
+	}
+
+	.explanation {
+		height: auto;
+		gap: 1rem;
+	}
+
+	.cardsContainer {
+		display: grid;
+		grid-template-columns: repeat(2, 1fr);
+	}
+}
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+	.textAndButtonContainer {
+		padding: 1rem;
+	}
+
+	.text {
+		font-size: 1rem;
+	}
+
+	.cardsContainer {
+		display: flex;
+		flex-direction: column;
+	}
+}

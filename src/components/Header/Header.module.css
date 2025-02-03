@@ -22,19 +22,10 @@
 	align-items: center;
 }
 
-.welcomeText {
-	font-size: 3rem;
-	color: var(--text-blue);
-	font-family: 'Anton', sans-serif;
-	text-transform: uppercase;
-	font-weight: 400;
-	text-align: center;
-}
-
 .welcomeSubtext {
 	font-size: 1.8rem;
 	color: var(--text-white);
-	font-family: 'Dosis', serif;
+	font-family: var(--font-text);
 	text-align: center;
 	width: 45vw;
 }
@@ -50,6 +41,11 @@
 	cursor: pointer;
 	transition: all 0.3s;
 	display: none;
+}
+
+.wannaPlayBtn:hover {
+	background-color: var(--background-blue);
+	color: var(--text-white);
 }
 
 /* iPads, Tablets */
@@ -73,7 +69,7 @@
 
 	.wannaPlayBtn {
 		display: inline-block;
-		margin-bottom: 32px;
+		margin-bottom: 48px;
 	}
 }
 
@@ -85,11 +81,6 @@
 
 	.logo {
 		height: 50vh;
-	}
-
-	.welcomeText {
-		font-size: 2.5rem;
-		line-height: 1.2;
 	}
 
 	.welcomeSubtext {
