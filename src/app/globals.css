@@ -1,32 +1,39 @@
 :root {
-	--pink: #f09cbf;
-	--blue: #38b6ff;
-
-  /* Atual */
-  /* --background-pink: #ffcbe1;
-	--background-blue: #d2e7fd; */
-
-  /* Ousado e vibrante (Energia e diversão) */
-  /* --background-pink: #FF3B8A;
-	--background-blue: #0077FF; */
-
-  /* Moderno e sofisticado (Conexão e profissionalismo) */
-  --background-pink: #E6397D;
-	--background-blue: #005F99;
-  --hover-blue: #0088CC;
-
-  /* Alegre e acessível (Amigável e convidativo) */
-  /* --background-pink: #FF6699;
-	--background-blue: #0099CC; */
-
-  /* Suave e acolhedor (Bem-estar e conforto) */
-	/* --background-pink: #F4A7C1;
-	--background-blue: #7EC8E3; */
+	/* COLORS */
+	--background-pink: #e6397d;
+	--background-blue: #005f99;
+	--hover-blue: #003F66;
 
 	--text-white: #ffffff;
 	--text-black: #000000;
-	--text-blue: #38b6ff;
-	--text-pink: #ff2e85;
+
+	--text-blue: #003F66;
+	--text-pink: #A6265C;
+
+	/* --pink: #f09cbf;
+	--blue: #38b6ff; */
+
+	/* Atual */
+	/* --background-pink: #ffcbe1;
+	--background-blue: #d2e7fd; */
+
+	/* Ousado e vibrante (Energia e diversão) */
+	/* --background-pink: #FF3B8A;
+	--background-blue: #0077FF; */
+
+	/* Moderno e sofisticado (Conexão e profissionalismo) */
+
+	/* Alegre e acessível (Amigável e convidativo) */
+	/* --background-pink: #FF6699;
+	--background-blue: #0099CC; */
+
+	/* Suave e acolhedor (Bem-estar e conforto) */
+	/* --background-pink: #F4A7C1;
+	--background-blue: #7EC8E3; */
+
+	/* FONTS */
+	--font-title: 'Anton', sans-serif;
+	--font-text: 'Dosis', sans-serif;
 }
 
 /* :root {
@@ -45,6 +52,7 @@ html,
 body {
 	max-width: 100vw;
 	overflow-x: hidden;
+	font-family: 'Dosis', sans-serif;
 }
 
 /* body {
