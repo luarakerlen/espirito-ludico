@@ -1,0 +1,54 @@
+.container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 20px;
+	width: 100%;
+}
+
+.imageContainer {
+	width: 100px;
+	height: 100px;
+	overflow: hidden;
+	border-radius: 50%;
+	background-color: var(--text-white);
+	margin-bottom: 1rem;
+}
+
+.image {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.title {
+	font-size: 1.5rem;
+	font-weight: 700;
+	color: var(--text-white);
+	margin-bottom: 0.5rem;
+}
+
+.description {
+	font-size: 1rem;
+	color: var(--text-white);
+	text-align: center;
+	max-width: 200px;
+}
+
+/* iPads, Tablets */
+@media screen and (max-width: 880px) {
+	.container {
+    padding: 10px;
+  }
+}
+
+/* Mobile */
+/* @media screen and (max-width: 480px) {
+	.textAndButtonContainer {
+		padding: 1rem;
+	}
+
+	.text {
+		font-size: 1rem;
+	}
+} */
