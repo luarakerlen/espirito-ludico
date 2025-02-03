@@ -2,7 +2,7 @@ import { Button } from '../Button';
 import { Card } from '../Card';
 import { Title } from '../Title';
 import styles from './HowDoesItWork.module.css';
-import { ChooseSvg } from '../ChooseSvg/ChooseSvg';
+import { ChooseSvg, HaveFunSvg, PickUpSvg, ReturnSvg } from '../Svg';
 import { useWindowDimensions } from '../../hooks';
 
 export const HowDoesItWork = () => {
@@ -54,13 +54,13 @@ export const HowDoesItWork = () => {
 					<Card
 						title='2. Retire/Receba'
 						description='Combine por WhatsApp o método de entrega: retirar na loja ou receber em casa.'
-						Image={ChooseSvg}
+						Image={PickUpSvg}
 						backgroundColor={'var(--background-pink)'}
 					/>
 					<Card
 						title='3. Divirta-se'
 						description='Aproveite cada jogo o quanto quiser.'
-						Image={ChooseSvg}
+						Image={HaveFunSvg}
 						backgroundColor={
 							windowWidth < 480 || windowWidth > 880
 								? 'var(--background-blue)'
@@ -70,7 +70,7 @@ export const HowDoesItWork = () => {
 					<Card
 						title='4. Devolva'
 						description='No dia marcado devolva o jogo.'
-						Image={ChooseSvg}
+						Image={ReturnSvg}
 						backgroundColor={
 							windowWidth < 480 || windowWidth > 880
 								? 'var(--background-pink)'
