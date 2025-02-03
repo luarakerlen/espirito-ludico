@@ -1,6 +1,6 @@
 'use client';
 import { useEffect, useState } from 'react';
-import { Header, Think, WelcomeScreen } from '../../components';
+import { Header, HowDoesItWork, Think, WelcomeScreen } from '../../components';
 import styles from './LandingPage.module.css';
 
 export default function LandingPage() {
@@ -18,6 +18,7 @@ export default function LandingPage() {
 			<div className={styles.content}>
 				<Header />
 				<Think />
+				<HowDoesItWork />
 			</div>
 		</div>
 	);
