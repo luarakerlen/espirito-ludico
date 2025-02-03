@@ -18,9 +18,7 @@ export const Header = () => {
 					magia do momento dependesse de todos.&quot;
 				</p>
 			</div>
-			{windowWidth <= 880 && (
-				<button className={styles.wannaPlayBtn}>Quero jogar</button>
-			)}
+			<button className={styles.wannaPlayBtn}>Quero jogar</button>
 		</div>
 	);
 };

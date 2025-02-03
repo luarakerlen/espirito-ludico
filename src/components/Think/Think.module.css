@@ -28,7 +28,7 @@
 	max-width: 500px;
 	font-size: 3rem;
 	font-weight: 700;
-	color: var(--text-black);
+	color: var(--text-white);
 	text-align: center;
 	font-family: 'Anton', sans-serif;
 	font-weight: 400;
@@ -38,7 +38,7 @@
 .line {
 	width: 50%;
 	height: 0.2rem;
-	background-color: var(--text-black);
+	background-color: var(--text-white);
 }
 
 .subtext {
@@ -46,7 +46,7 @@
 	max-width: 500px;
 	font-size: 1.5rem;
 	font-weight: 400;
-	color: var(--text-black);
+	color: var(--text-white);
 	text-align: center;
 	font-family: 'Dosis', sans-serif;
 	font-weight: 400;
@@ -54,14 +54,19 @@
 }
 
 .button {
-	background-color: var(--text-blue);
-	color: var(--background-blue);
+	background-color: var(--background-blue);
+	color: var(--text-white);
 	font-size: 2rem;
+	font-weight: 600;
 	padding: 0.5rem 1rem;
 	border: none;
-	border-radius: 5px;
+	border-radius: 32px;
 	cursor: pointer;
 	transition: all 0.3s;
+}
+
+.button:hover {
+	background-color: var(--hover-blue);
 }
 
 .image {
